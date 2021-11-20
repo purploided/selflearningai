@@ -2,6 +2,9 @@
 # please, im sleep deprived
 # ~nicolas
 
+secondsecond = "nrn"
+firstfirst = "nrn"
+
 import random
 import json
 
@@ -37,199 +40,198 @@ while oompaloompa == True:
         secondsecond = input(random.choice(secondanswers))
         print("Ah,", secondsecond, "nice to meet you!")
 
-        if skip:
-            skip = False # it took me 3 hours to figure this out, get me a coke
+        if skip == False:
 
-            dict = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
-
-
-                if skip:
-                    skip = True
-
-
-            dict = {"Name":secondsecond, "Pronouns":firstfirst}
+            dicta = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
 
             with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
+                json.dump(dicta, dictionary)
 
-        skip1 = True
+            skip1 = True
+
+
+        if skip == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    skip1 = True
 
     if first == "Whats your name?":
         secondsecond = input(random.choice(secondanswers))
         print("Ah,", secondsecond, "nice to meet you!")
 
-        if skip:
-            skip = False
+        if skip == False:
 
-            dict = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
-
-
-                if skip:
-                    skip = True
-
-
-            dict = {"Name":secondsecond, "Pronouns":firstfirst}
+            dicta = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
 
             with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
+                json.dump(dicta, dictionary)
 
-        skip1 = True
+            skip1 = True
+
+
+        if skip == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    skip1 = True
 
 
     if first == "what's your name?":
         secondsecond = input(random.choice(secondanswers))
         print("Ah,", secondsecond, "nice to meet you!")
 
-        if skip:
-            skip = False
+        if skip == False:
 
-            dict = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
-
-
-                if skip:
-                    skip = True
-
-
-            dict = {"Name":secondsecond, "Pronouns":firstfirst}
+            dicta = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
 
             with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
+                json.dump(dicta, dictionary)
 
-        skip1 = True
+            skip1 = True
 
+
+        if skip == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    skip1 = True
 
     if first == "whats your name?":
         secondsecond = input(random.choice(secondanswers))
         print("Ah,", secondsecond, "nice to meet you!")
 
-        if skip:
-            skip = False
+        if skip == False:
 
-            dict = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
-
-
-                if skip:
-                    skip = True
-
-
-            dict = {"Name":secondsecond, "Pronouns":firstfirst}
+            dicta = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
 
             with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
+                json.dump(dicta, dictionary)
 
-        skip1 = True
+            skip1 = True
+
+
+        if skip == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    skip1 = True
 
 
     if first == "whats your name":
         secondsecond = input(random.choice(secondanswers))
         print("Ah,", secondsecond, "nice to meet you!")
 
-        if skip:
-            skip = False
+        if skip == False:
 
-            dict = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
-
-
-                if skip:
-                    skip = True
-
-
-            dict = {"Name":secondsecond, "Pronouns":firstfirst}
+            dicta = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
 
             with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
+                json.dump(dicta, dictionary)
 
-        skip1 = True
+            skip1 = True
+
+
+        if skip == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    skip1 = True
 
 
     if first == "What's ur name?":
         secondsecond = input(random.choice(secondanswers))
         print("Ah,", secondsecond, "nice to meet you!")
 
-        if skip:
-            skip = False
+        if skip == False:
 
-            dict = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
-
-
-                if skip:
-                    skip = True
-
-
-            dict = {"Name":secondsecond, "Pronouns":firstfirst}
+            dicta = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
 
             with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
+                json.dump(dicta, dictionary)
 
-        skip1 = True
+            skip1 = True
+
+
+        if skip == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    skip1 = True
 
 
     if first == "whats ur name?":
         secondsecond = input(random.choice(secondanswers))
         print("Ah,", secondsecond, "nice to meet you!")
 
-        if skip:
-            skip = False
+        if skip == False:
 
-            dict = {"Name":secondsecond, "Pronouns":"Syntax Not Found"} # will check if you have said your pronouns, if not, it will replace the "Pronouns" value to "Syntax Not Found"
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
-
-
-                if skip:
-                    skip = True
-
-
-            dict = {"Name":secondsecond, "Pronouns":firstfirst} # checks true for pronouns
+            dicta = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
 
             with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
+                json.dump(dicta, dictionary)
 
-        skip1 = True
+            skip1 = True
+
+
+        if skip == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    skip1 = True
 
 
     if first == "whats ur name":
         secondsecond = input(random.choice(secondanswers))
         print("Ah,", secondsecond, "nice to meet you!")
 
-        if skip:
-            skip = False
+        if skip == False:
 
-            dict = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
-
-
-                if skip:
-                    skip = True
-
-
-            dict = {"Name":secondsecond, "Pronouns":firstfirst}
+            dicta = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
 
             with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
+                json.dump(dicta, dictionary)
 
-        skip1 = True
+            skip1 = True
+
+
+        if skip == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    skip1 = True
 
 
     if first == "whats my name":
@@ -288,25 +290,25 @@ while oompaloompa == True:
 > """)
         print(firstfirst, "I'll remember that!")
 
-        if skip1:
-            skip1 = False
+        if skip1 == False:
 
-            dict = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
-
-
-                if skip1:
-                    skip1 = True
-
-
-            dict = {"Name":secondsecond, "Pronouns":firstfirst}
+            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
 
             with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
+                json.dump(dicta, dictionary)
 
-        skip = True
+            skip = True
+
+
+        if skip1 == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    skip = True
 
     if first == ("what are ur pronouns"):
         print(random.choice(thirdanswers))
@@ -314,25 +316,25 @@ while oompaloompa == True:
 > """)
         print(firstfirst, "I'll remember that!")
 
-        if skip1:
-            skip1 = False
+        if skip1 == False:
 
-            dict = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
-
-
-                if skip1:
-                    skip1 = True
-
-
-            dict = {"Name":secondsecond, "Pronouns":firstfirst}
+            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
 
             with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
+                json.dump(dicta, dictionary)
 
-        skip = True
+            skip = True
+
+
+        if skip1 == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    skip = True
 
 
     if first == ("what are your pronouns"):
@@ -341,25 +343,25 @@ while oompaloompa == True:
 > """)
         print(firstfirst, "I'll remember that!")
 
-        if skip1:
-            skip1 = False
+        if skip1 == False:
 
-            dict = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
-
-
-                if skip1:
-                    skip1 = True
-
-
-            dict = {"Name":secondsecond, "Pronouns":firstfirst}
+            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
 
             with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
+                json.dump(dicta, dictionary)
 
-        skip = True
+            skip = True
+
+
+        if skip1 == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    skip = True
 
 
     if first == ("what are your pronouns?"):
@@ -368,25 +370,25 @@ while oompaloompa == True:
 > """)
         print(firstfirst, "I'll remember that!")
 
-        if skip1:
-            skip1 = False
+        if skip1 == False:
 
-            dict = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
-
-
-                if skip1:
-                    skip1 = True
-
-
-            dict = {"Name":secondsecond, "Pronouns":firstfirst}
+            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
 
             with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
+                json.dump(dicta, dictionary)
 
-        skip = True
+            skip = True
+
+
+        if skip1 == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    skip = True
 
 
     if first == ("What r ur pronouns?"):
@@ -395,25 +397,25 @@ while oompaloompa == True:
 > """)
         print(firstfirst, "I'll remember that!")
 
-        if skip1:
-            skip1 = False
+        if skip1 == False:
 
-            dict = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
-
-
-                if skip1:
-                    skip1 = True
-
-
-            dict = {"Name":secondsecond, "Pronouns":firstfirst}
+            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
 
             with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
+                json.dump(dicta, dictionary)
 
-        skip = True
+            skip = True
+
+
+        if skip1 == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    skip = True
 
 
     if first == ("what r ur pronouns?"):
@@ -422,25 +424,25 @@ while oompaloompa == True:
 > """)
         print(firstfirst, "I'll remember that!")
 
-        if skip1:
-            skip1 = False
+        if skip1 == False:
 
-            dict = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
-
-
-                if skip1:
-                    skip1 = True
-
-
-            dict = {"Name":secondsecond, "Pronouns":firstfirst}
+            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
 
             with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
+                json.dump(dicta, dictionary)
 
-        skip = True
+            skip = True
+
+
+        if skip1 == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    skip = True
 
 
     if first == ("What are your pronouns?"):
@@ -449,25 +451,25 @@ while oompaloompa == True:
 > """)
         print(firstfirst, "I'll remember that!")
 
-        if skip1:
-            skip1 = False
+        if skip1 == False:
 
-            dict = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
-
-
-                if skip1:
-                    skip1 = True
-
-
-            dict = {"Name":secondsecond, "Pronouns":firstfirst}
+            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
 
             with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
+                json.dump(dicta, dictionary)
 
-        skip = True
+            skip = True
+
+
+        if skip1 == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    skip = True
 
 
     if first == ("what are ur pronouns"):
@@ -476,25 +478,25 @@ while oompaloompa == True:
 > """)
         print(firstfirst, "I'll remember that!")
 
-        if skip1:
-            skip1 = False
+        if skip1 == False:
 
-            dict = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
-
-
-                if skip1:
-                    skip1 = True
-
-
-            dict = {"Name":secondsecond, "Pronouns":firstfirst}
+            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
 
             with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
+                json.dump(dicta, dictionary)
 
-        skip = True
+            skip = True
+
+
+        if skip1 == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    skip = True
 
 
     if first == ("what r your pronouns"):
@@ -503,25 +505,25 @@ while oompaloompa == True:
 > """)
         print(firstfirst, "I'll remember that!")
 
-        if skip1:
-            skip1 = False
+        if skip1 == False:
 
-            dict = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
-
-
-                if skip1:
-                    skip1 = True
-
-
-            dict = {"Name":secondsecond, "Pronouns":firstfirst}
+            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
 
             with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
+                json.dump(dicta, dictionary)
 
-        skip = True
+            skip = True
+
+
+        if skip1 == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    skip = True
 
 
     if first == ("what are ur pronouns?"):
@@ -530,25 +532,25 @@ while oompaloompa == True:
 > """)
         print(firstfirst, "I'll remember that!")
 
-        if skip1:
-            skip1 = False
+        if skip1 == False:
 
-            dict = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
-
-
-                if skip1:
-                    skip1 = True
-
-
-            dict = {"Name":secondsecond, "Pronouns":firstfirst}
+            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
 
             with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
+                json.dump(dicta, dictionary)
 
-        skip = True
+            skip = True
+
+
+        if skip1 == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    skip = True
 
 
     if first == ("what r your pronouns?"):
@@ -557,25 +559,25 @@ while oompaloompa == True:
 > """)
         print(firstfirst, "I'll remember that!")
 
-        if skip1:
-            skip1 = False
+        if skip1 == False:
 
-            dict = {"Name":"Syntax Not Found", "Pronouns":firstfirst} # pronouns value
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
-
-
-                if skip1:
-                    skip1 = True
-
-
-            dict = {"Name":secondsecond, "Pronouns":firstfirst}
+            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
 
             with open('dict.json', 'w') as dictionary:
-                json.dump(dict, dictionary)
+                json.dump(dicta, dictionary)
 
-        skip = True
+            skip = True
+
+
+        if skip1 == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    skip = True
 
     if first == "what are my pronouns":
 
