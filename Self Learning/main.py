@@ -16,11 +16,13 @@ skip = False
 
 # sorta forgot about these
 
-oneanswers = ("Hi there!", "Hey! My name is Azi!")
-secondanswers = ("""I'm Azi, how bout you?
-> """, """I am the ALMIGHTY Azi, and you are..?
+oneanswers = ("Hi there!", "Hey! My name is Jarad!")
+secondanswers = ("""I'm Jarad, how bout you?
+> """, """I am the ALMIGHTY Jarad, and you are..?
 > """)
 thirdanswers = ["I am designed to be a male, so he/him will do I guess.", "he/him", "I am designed to be a guy."]
+fourthanswers = ["I don't think you can consider me a friend, since I am a robot, and do not exist.", "I am a robot, I cannot express love.", "I could be your friend if you would like, but I cannot commit."]
+fiveanswers = ["I believe in you!", "I support you.", "If you can do it, I'll support you all the way!"]
 
 oompaloompa = True # loop name lol
 
@@ -634,3 +636,143 @@ while oompaloompa == True:
         why4 = json.load(why3)
 
         print(why4['Pronouns'])
+
+    if first == "do you believe in me?":
+        print(random.choice(fiveanswers))
+
+    if first == "Do you believe in me?":
+        print(random.choice(fiveanswers))
+
+    if first == "do u believe in me?":
+        print(random.choice(fiveanswers))
+
+    if first == "do you believe in me":
+        print(random.choice(fiveanswers))
+
+    if first == "Do you believe in me":
+        print(random.choice(fiveanswers))
+
+    if first == "Do u believe in me?":
+        print(random.choice(fiveanswers))
+
+    if first == "Do u believe in me":
+        print(random.choice(fiveanswers))
+
+    if first == "do u believe in me":
+        print(random.choice(fiveanswers))
+
+##
+
+    if first == "are u my friend":
+        print(random.choice(fourthanswers))
+
+    if first == "Are u my friend":
+        print(random.choice(fourthanswers))
+
+    if first == "are u my friend?":
+        print(random.choice(fourthanswers))
+
+    if first == "Are u my friend?":
+        print(random.choice(fourthanswers))
+
+    if first == "are you my friend?":
+        print(random.choice(fourthanswers))
+
+    if first == "Are you my friend?":
+        print(random.choice(fourthanswers))
+
+    if first == "Are you my friend":
+        print(random.choice(fourthanswers))
+
+    if first == "are you my friend":
+        print(random.choice(fourthanswers))
+
+    if first == "friend":
+        print(random.choice(fourthanswers))
+
+    if first == "Friend":
+        print(random.choice(fourthanswers))
+
+    if first == "friend?":
+        print(random.choice(fourthanswers))
+
+    if first == "Friend?":
+        print(random.choice(fourthanswers))
+
+    if first == "friends":
+        print(random.choice(fourthanswers))
+
+    if first == "Friends":
+        print(random.choice(fourthanswers))
+
+    if first == "friends?":
+        print(random.choice(fourthanswers))
+
+    if first == "Friends?":
+        print(random.choice(fourthanswers))
+
+##
+
+    if first == "who am i":
+
+        why = open('dict.json', 'r')
+        why2 = json.load(why)
+
+        print('You are', why2['Name'])
+        print('Why would I forget?')
+
+    if first == "Who am i":
+
+        why = open('dict.json', 'r')
+        why2 = json.load(why)
+
+        print('You are', why2['Name'])
+        print('Why would I forget?')
+
+    if first == "who am I":
+
+        why = open('dict.json', 'r')
+        why2 = json.load(why)
+
+        print('You are', why2['Name'])
+        print('Why would I forget?')
+
+    if first == "who am i?":
+
+        why = open('dict.json', 'r')
+        why2 = json.load(why)
+
+        print('You are', why2['Name'])
+        print('Why would I forget?')
+
+    if first == "Who am I":
+
+        why = open('dict.json', 'r')
+        why2 = json.load(why)
+
+        print('You are', why2['Name'])
+        print('Why would I forget?')
+
+    if first == "who am I?":
+
+        why = open('dict.json', 'r')
+        why2 = json.load(why)
+
+        print('You are', why2['Name'])
+        print('Why would I forget?')
+
+    if first == "Who am I?":
+
+        why = open('dict.json', 'r')
+        why2 = json.load(why)
+
+        print('You are', why2['Name'])
+        print('Why would I forget?')
+
+    if first == "Who am i?":
+
+        why = open('dict.json', 'r')
+        why2 = json.load(why)
+
+        print('You are', why2['Name'])
+        print('Why would I forget?')
