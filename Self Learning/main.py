@@ -34,6 +34,7 @@ fourthanswers = ["I don't think you can consider me a friend, since I am a robot
 fiveanswers = ["I believe in you!", "I support you.", "If you can do it, I'll support you all the way!"]
 sixthasnwers = ["My favorite food? Obviously it's chips!", f"I am a computer generated being, my favorite food is... {yourFavFood}", "Cheese of course!"]
 ageInSmallLetters = ["I am however old you are!", "I am 1 year old.", "I am the age of your computer!?"]
+gameFav = ["Apex Legends", "I don't believe I have one", "Mine is whatever yours is!"]
 
 oompaloompa = True # loop name lol
 
@@ -1020,7 +1021,7 @@ while oompaloompa == True:
 
     if first == "what is ur favorite genre of music": # im just bored ffs
         print('My favorite genre of music is Electronic!')
-
+        #*/
     if first == "how old r u":
         print(random.choice(ageInSmallLetters))
 
@@ -1077,3 +1078,53 @@ while oompaloompa == True:
 
     with open('namedict.json', 'w') as namedictionary:
         json.dump(dictname, namedictionary)
+
+    if first == "Name":
+        namename = input('''What should my name be then?
+> ''')  
+        dictname = {"AIName": namename}
+
+    with open('namedict.json', 'w') as namedictionary:
+        json.dump(dictname, namedictionary)
+
+    if first == "name?":
+        namename = input('''What should my name be then?
+> ''')  
+        dictname = {"AIName": namename}
+
+    with open('namedict.json', 'w') as namedictionary:
+        json.dump(dictname, namedictionary)
+
+    if first == "Name?":
+        namename = input('''What should my name be then?
+> ''')  
+        dictname = {"AIName": namename}
+
+    with open('namedict.json', 'w') as namedictionary:
+        json.dump(dictname, namedictionary)
+
+#*/
+
+    if first == "Favorite Game?":
+        print(random.choice(gameFav))
+
+    if first == "favorite Game?":
+        print(random.choice(gameFav))
+
+    if first == "Favorite game?":
+        print(random.choice(gameFav))
+
+    if first == "favorite game?":
+        print(random.choice(gameFav))
+
+    if first == "Favorite Game":
+        print(random.choice(gameFav))
+
+    if first == "Favorite game":
+        print(random.choice(gameFav))
+
+    if first == "favorite Game":
+        print(random.choice(gameFav))
+
+    if first == "favorite game":
+        print(random.choice(gameFav))
