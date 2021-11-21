@@ -2,13 +2,24 @@
 # please, im sleep deprived
 # ~nicolas
 
-
-secondsecond = "nrn"
-firstfirst = "nrn"
-yourFavFood = "nrn"
+# 21/11/21
+# it seems ive been livestreaming the development on tiktok
+# LMAO
+# ~nicolas
 
 import random
 import json
+
+
+secondsecond = "nrn"
+firstfirst = "nrn"
+namename = ""
+yourFavFood = "nrn"
+
+dictname = {"AIName": "Jarad"}
+
+with open('namedict.json', 'w') as namedictionary:
+    json.dump(dictname, namedictionary)
 
 # default states for dictionary saves
 
@@ -18,15 +29,11 @@ skip = False
 
 # sorta forgot about these
 
-oneanswers = ("Hi there!", "Hey! My name is Jarad!")
-secondanswers = ("""I'm Jarad, how bout you?
-> """, """I am the ALMIGHTY Jarad, and you are..?
-> """)
 thirdanswers = ["I am designed to be a male, so he/him will do I guess.", "he/him", "I am designed to be a guy."]
 fourthanswers = ["I don't think you can consider me a friend, since I am a robot, and do not exist.", "I am a robot, I cannot express love.", "I could be your friend if you would like, but I cannot commit."]
 fiveanswers = ["I believe in you!", "I support you.", "If you can do it, I'll support you all the way!"]
 sixthasnwers = ["My favorite food? Obviously it's chips!", f"I am a computer generated being, my favorite food is... {yourFavFood}", "Cheese of course!"]
-jokesYK = ['Jokes1', 'Jokes2', 'Jokes3']
+ageInSmallLetters = ["I am however old you are!", "I am 1 year old.", "I am the age of your computer!?"]
 
 oompaloompa = True # loop name lol
 
@@ -35,19 +42,36 @@ while oompaloompa == True:
     first = input("> ")
 
     if first == "hi":
-        print(random.choice(oneanswers))
+        why6 = open('namedict.json', 'r')
+        why7 = json.load(why6)
+
+        print("Hi! I am", why7['AIName'])
     if first == "hello":
-        print(random.choice(oneanswers))
+        why6 = open('namedict.json', 'r')
+        why7 = json.load(why6)
+
+        print("Hi! I am", why7['AIName'])
     if first == "Hi":
-        print(random.choice(oneanswers))
+        why6 = open('namedict.json', 'r')
+        why7 = json.load(why6)
+
+        print("Hi! I am", why7['AIName'])
     if first == "Hello":
-        print(random.choice(oneanswers))
+        why6 = open('namedict.json', 'r')
+        why7 = json.load(why6)
+
+        print("Hi! I am", why7['AIName'])
 
         #/*
 
 
     if first == "What's your name?":
-        secondsecond = input(random.choice(secondanswers))
+        why6 = open('namedict.json', 'r')
+        why7 = json.load(why6)
+
+        print(why7['AIName'])
+        secondsecond = input("""And you are?
+> """)
         print("Ah,", secondsecond, "nice to meet you!")
 
         if skip == False:
@@ -71,7 +95,12 @@ while oompaloompa == True:
     skip1 = True
 
     if first == "Whats your name?":
-        secondsecond = input(random.choice(secondanswers))
+        why6 = open('namedict.json', 'r')
+        why7 = json.load(why6)
+
+        print(why7['AIName'])
+        secondsecond = input("""And you are?
+> """)
         print("Ah,", secondsecond, "nice to meet you!")
 
         if skip == False:
@@ -96,7 +125,12 @@ while oompaloompa == True:
 
 
     if first == "what's your name?":
-        secondsecond = input(random.choice(secondanswers))
+        why6 = open('namedict.json', 'r')
+        why7 = json.load(why6)
+
+        print(why7['AIName'])
+        secondsecond = input("""And you are?
+> """)
         print("Ah,", secondsecond, "nice to meet you!")
 
         if skip == False:
@@ -120,7 +154,12 @@ while oompaloompa == True:
     skip1 = True
 
     if first == "whats your name?":
-        secondsecond = input(random.choice(secondanswers))
+        why6 = open('namedict.json', 'r')
+        why7 = json.load(why6)
+
+        print(why7['AIName'])
+        secondsecond = input("""And you are?
+> """)
         print("Ah,", secondsecond, "nice to meet you!")
 
         if skip == False:
@@ -145,7 +184,12 @@ while oompaloompa == True:
 
 
     if first == "whats your name":
-        secondsecond = input(random.choice(secondanswers))
+        why6 = open('namedict.json', 'r')
+        why7 = json.load(why6)
+
+        print(why7['AIName'])
+        secondsecond = input("""And you are?
+> """)
         print("Ah,", secondsecond, "nice to meet you!")
 
         if skip == False:
@@ -170,7 +214,12 @@ while oompaloompa == True:
 
 
     if first == "What's ur name?":
-        secondsecond = input(random.choice(secondanswers))
+        why6 = open('namedict.json', 'r')
+        why7 = json.load(why6)
+
+        print(why7['AIName'])
+        secondsecond = input("""And you are?
+> """)
         print("Ah,", secondsecond, "nice to meet you!")
 
         if skip == False:
@@ -195,7 +244,12 @@ while oompaloompa == True:
 
 
     if first == "whats ur name?":
-        secondsecond = input(random.choice(secondanswers))
+        why6 = open('namedict.json', 'r')
+        why7 = json.load(why6)
+
+        print(why7['AIName'])
+        secondsecond = input("""And you are?
+> """)
         print("Ah,", secondsecond, "nice to meet you!")
 
         if skip == False:
@@ -220,7 +274,12 @@ while oompaloompa == True:
 
 
     if first == "whats ur name":
-        secondsecond = input(random.choice(secondanswers))
+        why6 = open('namedict.json', 'r')
+        why7 = json.load(why6)
+
+        print(why7['AIName'])
+        secondsecond = input("""And you are?
+> """)
         print("Ah,", secondsecond, "nice to meet you!")
 
         if skip == False:
@@ -834,7 +893,7 @@ while oompaloompa == True:
         jokeCatalog = open('jokesdict.json', 'r')
         jokesCatalog = json.load(jokeCatalog)
 
-        randomJoke = jokesCatalog["Jokes1"], jokesCatalog["Jokes2"], jokesCatalog["Jokes3"]
+        randomJoke = jokesCatalog["Jokes1"], jokesCatalog["Jokes2"], jokesCatalog["Jokes3"], jokesCatalog["Jokes4"], jokesCatalog["Jokes5"]
 
         print(random.choice(randomJoke))
 
@@ -842,7 +901,7 @@ while oompaloompa == True:
         jokeCatalog = open('jokesdict.json', 'r')
         jokesCatalog = json.load(jokeCatalog)
 
-        randomJoke = jokesCatalog["Jokes1"], jokesCatalog["Jokes2"], jokesCatalog["Jokes3"]
+        randomJoke = jokesCatalog["Jokes1"], jokesCatalog["Jokes2"], jokesCatalog["Jokes3"], jokesCatalog["Jokes4"], jokesCatalog["Jokes5"]
 
         print(random.choice(randomJoke))
 
@@ -850,7 +909,7 @@ while oompaloompa == True:
         jokeCatalog = open('jokesdict.json', 'r')
         jokesCatalog = json.load(jokeCatalog)
 
-        randomJoke = jokesCatalog["Jokes1"], jokesCatalog["Jokes2"], jokesCatalog["Jokes3"]
+        randomJoke = jokesCatalog["Jokes1"], jokesCatalog["Jokes2"], jokesCatalog["Jokes3"], jokesCatalog["Jokes4"], jokesCatalog["Jokes5"]
 
         print(random.choice(randomJoke))
 
@@ -858,6 +917,163 @@ while oompaloompa == True:
         jokeCatalog = open('jokesdict.json', 'r')
         jokesCatalog = json.load(jokeCatalog)
 
-        randomJoke = jokesCatalog["Jokes1"], jokesCatalog["Jokes2"], jokesCatalog["Jokes3"]
+        randomJoke = jokesCatalog["Jokes1"], jokesCatalog["Jokes2"], jokesCatalog["Jokes3"], jokesCatalog["Jokes4"], jokesCatalog["Jokes5"]
 
         print(random.choice(randomJoke))
+
+#/*
+
+    if first == "fact": # fact command
+        factCatalog = open('factdict.json', 'r') # opens the fact dictionary
+        factsCatalog = json.load(factCatalog) # loads the fact dictionary
+
+        randomFact = factsCatalog["Fact1"], factsCatalog["Fact2"], factsCatalog["Fact3"], factsCatalog["Fact4"], factsCatalog["Fact5"]
+
+        # self explanitory
+
+        print(random.choice(randomFact)) # chooses a random fact from the "randomFact" list
+
+    if first == "tell me a fact":
+        factCatalog = open('factdict.json', 'r')
+        factsCatalog = json.load(factCatalog)
+
+        randomFact = factsCatalog["Fact1"], factsCatalog["Fact2"], factsCatalog["Fact3"], factsCatalog["Fact4"], factsCatalog["Fact5"]
+
+        print(random.choice(randomFact))
+
+    if first == "Fact":
+        factCatalog = open('factdict.json', 'r')
+        factsCatalog = json.load(factCatalog)
+
+        randomFact = factsCatalog["Fact1"], factsCatalog["Fact2"], factsCatalog["Fact3"], factsCatalog["Fact4"], factsCatalog["Fact5"]
+
+        print(random.choice(randomFact))
+
+    if first == "Tell me a fact":
+        factCatalog = open('factdict.json', 'r')
+        factsCatalog = json.load(factCatalog)
+
+        randomFact = factsCatalog["Fact1"], factsCatalog["Fact2"], factsCatalog["Fact3"], factsCatalog["Fact4"], factsCatalog["Fact5"]
+
+        print(random.choice(randomFact))
+
+    if first == "Tell me a fact.":
+        factCatalog = open('factdict.json', 'r')
+        factsCatalog = json.load(factCatalog)
+
+        randomFact = factsCatalog["Fact1"], factsCatalog["Fact2"], factsCatalog["Fact3"], factsCatalog["Fact4"], factsCatalog["Fact5"]
+
+        print(random.choice(randomFact))
+
+    if first == "tell me a fact.":
+        factCatalog = open('factdict.json', 'r')
+        factsCatalog = json.load(factCatalog)
+
+        randomFact = factsCatalog["Fact1"], factsCatalog["Fact2"], factsCatalog["Fact3"], factsCatalog["Fact4"], factsCatalog["Fact5"]
+
+        print(random.choice(randomFact))
+
+    if first == "what is your favorite genre":
+        print('My favorite genre of music is Electronic!')
+
+    if first == "what is your favorite genre?":
+        print('My favorite genre of music is Electronic!')
+
+    if first == "What is your favorite genre":
+        print('My favorite genre of music is Electronic!')
+
+    if first == "What is your favorite genre?":
+        print('My favorite genre of music is Electronic!')
+
+    if first == "what is your favorite genre of music?":
+        print('My favorite genre of music is Electronic!')
+
+    if first == "what is your favorite genre of music":
+        print('My favorite genre of music is Electronic!')
+
+    if first == "What is your favorite genre of music":
+        print('My favorite genre of music is Electronic!')
+
+    if first == "What is your favorite genre of music?":
+        print('My favorite genre of music is Electronic!')
+
+    if first == "What is ur favorite genre":
+        print('My favorite genre of music is Electronic!')
+
+    if first == "what is ur favorite genre":
+        print('My favorite genre of music is Electronic!')
+
+    if first == "What is ur favorite genre?":
+        print('My favorite genre of music is Electronic!')
+
+    if first == "what is ur favorite genre?":
+        print('My favorite genre of music is Electronic!')
+
+    if first == "What is ur favorite genre of music?":
+        print('My favorite genre of music is Electronic!')
+
+    if first == "what is ur favorite genre of music?":
+        print('My favorite genre of music is Electronic!')
+
+    if first == "What is ur favorite genre of music":
+        print('My favorite genre of music is Electronic!')
+
+    if first == "what is ur favorite genre of music": # im just bored ffs
+        print('My favorite genre of music is Electronic!')
+
+    if first == "how old r u":
+        print(random.choice(ageInSmallLetters))
+
+    if first == "how old are u":
+        print(random.choice(ageInSmallLetters))
+
+    if first == "how old r you":
+        print(random.choice(ageInSmallLetters))
+
+    if first == "how old are you":
+        print(random.choice(ageInSmallLetters))
+
+    if first == "How old are u":
+        print(random.choice(ageInSmallLetters))
+
+    if first == "How old r you":
+        print(random.choice(ageInSmallLetters))
+
+    if first == "How old are you":
+        print(random.choice(ageInSmallLetters))
+
+    if first == "How old r u":
+        print(random.choice(ageInSmallLetters))
+
+    if first == "how old r u?":
+        print(random.choice(ageInSmallLetters))
+
+    if first == "how old are u?":
+        print(random.choice(ageInSmallLetters))
+
+    if first == "how old r you?":
+        print(random.choice(ageInSmallLetters))
+
+    if first == "how old are you?":
+        print(random.choice(ageInSmallLetters))
+
+    if first == "How old are u?":
+        print(random.choice(ageInSmallLetters))
+
+    if first == "How old r you?":
+        print(random.choice(ageInSmallLetters))
+
+    if first == "How old are you?":
+        print(random.choice(ageInSmallLetters))
+
+    if first == "How old r u?":
+        print(random.choice(ageInSmallLetters))
+
+#/*
+    if first == "name":
+        namename = input('''What should my name be then?
+> ''')  
+        dictname = {"AIName": namename}
+
+    with open('namedict.json', 'w') as namedictionary:
+        json.dump(dictname, namedictionary)
