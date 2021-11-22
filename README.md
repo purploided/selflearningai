@@ -17,3 +17,5 @@ If you have found a bug, and/or would like to recommend something [Open an Issue
 # Creator
 
 [@Nicolas](https://github.com/flushedpng)
+
+print('Hello World!')
