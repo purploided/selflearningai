@@ -1,5 +1,13 @@
+# Jarad, the AI
+
+# 22/11/21 Jarad now has a neural network
+# He isn't stupid anymore!
+
+# ~nicolas
+
 import random
 import json
+import math
 
 
 secondsecond = "nrn"
@@ -1119,3 +1127,272 @@ while oompaloompa == True:
 
     if first == "favorite game":
         print(random.choice(gameFav))
+#/*
+
+    if first == "What came first, the chicken or the egg?":
+        chickCatalog = open('advanceddict.json', 'r')
+        chickenCatalog = json.load(chickCatalog)
+
+        print(chickenCatalog["ChickenQuest"])
+
+    if first == "What came first the chicken or the egg?":
+        chickCatalog = open('advanceddict.json', 'r')
+        chickenCatalog = json.load(chickCatalog)
+
+        print(chickenCatalog["ChickenQuest"])
+
+    if first == "what came first, the chicken or the egg?":
+        chickCatalog = open('advanceddict.json', 'r')
+        chickenCatalog = json.load(chickCatalog)
+
+        print(chickenCatalog["ChickenQuest"])
+
+    if first == "what came first the chicken or the egg?":
+        chickCatalog = open('advanceddict.json', 'r')
+        chickenCatalog = json.load(chickCatalog)
+
+        print(chickenCatalog["ChickenQuest"])
+
+    if first == "What came first, the chicken or the egg":
+        chickCatalog = open('advanceddict.json', 'r')
+        chickenCatalog = json.load(chickCatalog)
+
+        print(chickenCatalog["ChickenQuest"])
+
+    if first == "what came first, the chicken or the egg":
+        chickCatalog = open('advanceddict.json', 'r')
+        chickenCatalog = json.load(chickCatalog)
+
+        print(chickenCatalog["ChickenQuest"])
+
+    if first == "What came first the chicken or the egg":
+        chickCatalog = open('advanceddict.json', 'r')
+        chickenCatalog = json.load(chickCatalog)
+
+        print(chickenCatalog["ChickenQuest"])
+
+    if first == "what came first the chicken or the egg":
+        chickCatalog = open('advanceddict.json', 'r')
+        chickenCatalog = json.load(chickCatalog)
+
+        print(chickenCatalog["ChickenQuest"])
+
+#*/
+
+    if first == "What happened before the Big Bang?":
+        bangCatalog = open('advanceddict.json', 'r')
+        bangerCatalog = json.load(bangCatalog)
+
+        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
+
+        print(random.choice(BangError123))
+
+    if first == "what happened before the Big Bang?":
+        bangCatalog = open('advanceddict.json', 'r')
+        bangerCatalog = json.load(bangCatalog)
+
+        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
+
+        print(random.choice(BangError123))
+
+    if first == "What happened before the Big Bang":
+        bangCatalog = open('advanceddict.json', 'r')
+        bangerCatalog = json.load(bangCatalog)
+
+        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
+
+        print(random.choice(BangError123))
+
+    if first == "what happened before the Big Bang":
+        bangCatalog = open('advanceddict.json', 'r')
+        bangerCatalog = json.load(bangCatalog)
+
+        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
+
+        print(random.choice(BangError123))
+
+    if first == "What happened before the big Bang?":
+        bangCatalog = open('advanceddict.json', 'r')
+        bangerCatalog = json.load(bangCatalog)
+
+        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
+
+        print(random.choice(BangError123))
+
+    if first == "what happened before the big Bang?":
+        bangCatalog = open('advanceddict.json', 'r')
+        bangerCatalog = json.load(bangCatalog)
+
+        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
+
+        print(random.choice(BangError123))
+
+    if first == "What happened before the Big bang?":
+        bangCatalog = open('advanceddict.json', 'r')
+        bangerCatalog = json.load(bangCatalog)
+
+        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
+
+        print(random.choice(BangError123))
+
+    if first == "what happened before the Big bang?":
+        bangCatalog = open('advanceddict.json', 'r')
+        bangerCatalog = json.load(bangCatalog)
+
+        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
+
+        print(random.choice(BangError123))
+
+    if first == "What happened before the big bang?":
+        bangCatalog = open('advanceddict.json', 'r')
+        bangerCatalog = json.load(bangCatalog)
+
+        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
+
+        print(random.choice(BangError123))
+
+    if first == "what happened before the big bang?":
+        bangCatalog = open('advanceddict.json', 'r')
+        bangerCatalog = json.load(bangCatalog)
+
+        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
+
+        print(random.choice(BangError123))
+
+    if first == "What happened before the big bang":
+        bangCatalog = open('advanceddict.json', 'r')
+        bangerCatalog = json.load(bangCatalog)
+
+        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
+
+        print(random.choice(BangError123))
+
+    if first == "what happened before the big bang":
+        bangCatalog = open('advanceddict.json', 'r')
+        bangerCatalog = json.load(bangCatalog)
+
+        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
+
+        print(random.choice(BangError123))
+
+#*/
+
+    if first == "What does pain feel like?":
+        painCatalog = open('advanceddict.json', 'r')
+        painersCatalog = json.load(painCatalog)
+
+        print(painersCatalog['PainQuest'])
+
+    if first == "what does pain feel like?":
+        painCatalog = open('advanceddict.json', 'r')
+        painersCatalog = json.load(painCatalog)
+
+        print(painersCatalog['PainQuest'])
+
+    if first == "What does pain feel like":
+        painCatalog = open('advanceddict.json', 'r')
+        painersCatalog = json.load(painCatalog)
+
+        print(painersCatalog['PainQuest'])
+
+    if first == "what does pain feel like":
+        painCatalog = open('advanceddict.json', 'r')
+        painersCatalog = json.load(painCatalog)
+
+        print(painersCatalog['PainQuest'])
+
+#*/
+
+    if first == "Who is God?":
+        godCatalog = open('advanceddict.json', 'r')
+        godsCatalog = json.load(godCatalog)
+
+        print(godsCatalog['GodQuest'])
+
+    if first == "who is God?":
+        godCatalog = open('advanceddict.json', 'r')
+        godsCatalog = json.load(godCatalog)
+
+        print(godsCatalog['GodQuest'])
+
+    if first == "Who is god?":
+        godCatalog = open('advanceddict.json', 'r')
+        godsCatalog = json.load(godCatalog)
+
+        print(godsCatalog['GodQuest'])
+
+    if first == "who is god?":
+        godCatalog = open('advanceddict.json', 'r')
+        godsCatalog = json.load(godCatalog)
+
+        print(godsCatalog['GodQuest'])
+
+    if first == "Who is God":
+        godCatalog = open('advanceddict.json', 'r')
+        godsCatalog = json.load(godCatalog)
+
+        print(godsCatalog['GodQuest'])
+
+    if first == "Who is god":
+        godCatalog = open('advanceddict.json', 'r')
+        godsCatalog = json.load(godCatalog)
+
+        print(godsCatalog['GodQuest'])
+
+    if first == "who is God":
+        godCatalog = open('advanceddict.json', 'r')
+        godsCatalog = json.load(godCatalog)
+
+        print(godsCatalog['GodQuest'])
+
+    if first == "who is god":
+        godCatalog = open('advanceddict.json', 'r')
+        godsCatalog = json.load(godCatalog)
+
+        print(godsCatalog['GodQuest'])
+
+#/*
+
+    if first == "Pick a number":
+        firstask1 = input('''Input a number, please.
+> ''')
+
+        firstask2 = input('''Input another number, please.
+> ''')
+
+        result = int(firstask1)/int(firstask2)
+
+        print('I got this:', result)
+
+    if first == "pick a number":
+        firstask1 = input('''Input a number, please.
+> ''')
+
+        firstask2 = input('''Input another number, please.
+> ''')
+
+        result = int(firstask1)/int(firstask2)
+
+        print('I got this:', result)
+
+    if first == "Pick a number.":
+        firstask1 = input('''Input a number, please.
+> ''')
+
+        firstask2 = input('''Input another number, please.
+> ''')
+
+        result = int(firstask1)/int(firstask2)
+
+        print('I got this:', result)
+
+    if first == "pick a number.":
+        firstask1 = input('''Input a number, please.
+> ''')
+
+        firstask2 = input('''Input another number, please.
+> ''')
+
+        result = int(firstask1)/int(firstask2)
+
+        print('I got this:', result)
