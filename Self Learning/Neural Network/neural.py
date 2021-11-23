@@ -1396,3 +1396,21 @@ while oompaloompa == True:
         result = int(firstask1)/int(firstask2)
 
         print('I got this:', result)
+
+#/*
+
+    if first == "Dictionary":
+        dictquestiona = input('''What word are you looking for?
+> ''')
+        Catalog = open('worddict.json', 'r')
+        sCatalog = json.load(Catalog)
+
+        print(sCatalog[dictquestiona])
+
+    if first == "dictionary":
+        dictquestiona = input('''What word are you looking for?
+> ''')
+        Catalog = open('worddict.json', 'r')
+        sCatalog = json.load(Catalog)
+
+        print(sCatalog[dictquestiona])
