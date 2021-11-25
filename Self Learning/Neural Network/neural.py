@@ -1416,9 +1416,12 @@ while oompaloompa == True:
         print(sCatalog[dictquestiona])
 
     if first == "Save my email.":
-        firstInput = input('What should we call this email? ')
-        secondInput = input('What is the email we are adding? ')
-        thirdInput = input('What is the password to this email? ')
+        firstInput = input('''What should we call this email?
+> ''')
+        secondInput = input('''What is the email we are adding?
+> ''')
+        thirdInput = input('''What is the password to this email?
+> ''')
 
         theDump = {'Name#':firstInput, 'Email#':secondInput, 'Pass#':thirdInput}
 
@@ -1426,9 +1429,12 @@ while oompaloompa == True:
             json.dump(theDump, dictionarial)
 
     if first == "save my email.":
-        firstInput = input('What should we call this email? ')
-        secondInput = input('What is the email we are adding? ')
-        thirdInput = input('What is the password to this email? ')
+        firstInput = input('''What should we call this email?
+> ''')
+        secondInput = input('''What is the email we are adding?
+> ''')
+        thirdInput = input('''What is the password to this email?
+> ''')
 
         theDump = {'Name#':firstInput, 'Email#':secondInput, 'Pass#':thirdInput}
 
@@ -1436,9 +1442,12 @@ while oompaloompa == True:
             json.dump(theDump, dictionarial)
 
     if first == "Save my email":
-        firstInput = input('What should we call this email? ')
-        secondInput = input('What is the email we are adding? ')
-        thirdInput = input('What is the password to this email? ')
+        firstInput = input('''What should we call this email?
+> ''')
+        secondInput = input('''What is the email we are adding?
+> ''')
+        thirdInput = input('''What is the password to this email?
+> ''')
 
         theDump = {'Name#':firstInput, 'Email#':secondInput, 'Pass#':thirdInput}
 
@@ -1446,9 +1455,12 @@ while oompaloompa == True:
             json.dump(theDump, dictionarial)
 
     if first == "save my email":
-        firstInput = input('What should we call this email? ')
-        secondInput = input('What is the email we are adding? ')
-        thirdInput = input('What is the password to this email? ')
+        firstInput = input('''What should we call this email?
+> ''')
+        secondInput = input('''What is the email we are adding?
+> ''')
+        thirdInput = input('''What is the password to this email?
+> ''')
 
         theDump = {'Name#':firstInput, 'Email#':secondInput, 'Pass#':thirdInput}
 
