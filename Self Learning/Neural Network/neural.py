@@ -1414,3 +1414,91 @@ while oompaloompa == True:
         sCatalog = json.load(Catalog)
 
         print(sCatalog[dictquestiona])
+
+    if first == "Save my email.":
+        firstInput = input('What should we call this email? ')
+        secondInput = input('What is the email we are adding? ')
+        thirdInput = input('What is the password to this email? ')
+
+        theDump = {'Name#':firstInput, 'Email#':secondInput, 'Pass#':thirdInput}
+
+        with open('emaildict.json', 'w') as dictionarial:
+            json.dump(theDump, dictionarial)
+
+    if first == "save my email.":
+        firstInput = input('What should we call this email? ')
+        secondInput = input('What is the email we are adding? ')
+        thirdInput = input('What is the password to this email? ')
+
+        theDump = {'Name#':firstInput, 'Email#':secondInput, 'Pass#':thirdInput}
+
+        with open('emaildict.json', 'w') as dictionarial:
+            json.dump(theDump, dictionarial)
+
+    if first == "Save my email":
+        firstInput = input('What should we call this email? ')
+        secondInput = input('What is the email we are adding? ')
+        thirdInput = input('What is the password to this email? ')
+
+        theDump = {'Name#':firstInput, 'Email#':secondInput, 'Pass#':thirdInput}
+
+        with open('emaildict.json', 'w') as dictionarial:
+            json.dump(theDump, dictionarial)
+
+    if first == "save my email":
+        firstInput = input('What should we call this email? ')
+        secondInput = input('What is the email we are adding? ')
+        thirdInput = input('What is the password to this email? ')
+
+        theDump = {'Name#':firstInput, 'Email#':secondInput, 'Pass#':thirdInput}
+
+        with open('emaildict.json', 'w') as dictionarial:
+            json.dump(theDump, dictionarial)
+
+    if first == "What's my email?":
+        why = open('emaildict.json', 'r')
+        why2 = json.load(why)
+
+        print(why2['Name#'], "is", why2['Email#'], "password is", why2['Pass#'])
+
+    if first == "Whats my email?":
+        why = open('emaildict.json', 'r')
+        why2 = json.load(why)
+
+        print(why2['Name#'], "is", why2['Email#'], "password is", why2['Pass#'])
+
+    if first == "What's my email":
+        why = open('emaildict.json', 'r')
+        why2 = json.load(why)
+
+        print(why2['Name#'], "is", why2['Email#'], "password is", why2['Pass#'])
+
+    if first == "Whats my email":
+        why = open('emaildict.json', 'r')
+        why2 = json.load(why)
+
+        print(why2['Name#'], "is", why2['Email#'], "password is", why2['Pass#'])
+
+    if first == "what's my email?":
+        why = open('emaildict.json', 'r')
+        why2 = json.load(why)
+
+        print(why2['Name#'], "is", why2['Email#'], "password is", why2['Pass#'])
+
+    if first == "whats my email?":
+        why = open('emaildict.json', 'r')
+        why2 = json.load(why)
+
+        print(why2['Name#'], "is", why2['Email#'], "password is", why2['Pass#'])
+
+    if first == "what's my email":
+        why = open('emaildict.json', 'r')
+        why2 = json.load(why)
+
+        print(why2['Name#'], "is", why2['Email#'], "password is", why2['Pass#'])
+
+    if first == "whats my email":
+        why = open('emaildict.json', 'r')
+        why2 = json.load(why)
+
+        print(why2['Name#'], "is", why2['Email#'], "password is", why2['Pass#'])
