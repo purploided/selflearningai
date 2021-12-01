@@ -8,12 +8,14 @@
 import random
 import json
 import math
+import datetime
 
 
 secondsecond = "nrn"
 firstfirst = "nrn"
 namename = ""
 yourFavFood = "nrn"
+currentDMY = datetime.datetime.now()
 
 dictname = {"AIName": "Jarad"}
 
@@ -1514,3 +1516,423 @@ while oompaloompa == True:
         why2 = json.load(why)
 
         print(why2['Name#'], "is", why2['Email#'], "password is", why2['Pass#'])
+
+    if first == "Are you real?":
+        realCatalog = open('advanceddict.json', 'r')
+        realsiesCatalog = json.load(realCatalog)
+
+        realError = realsiesCatalog["RealQuestion"], realsiesCatalog["RealQuest"]
+
+        print(random.choice(realError))
+
+    if first == "Are u real?":
+        realCatalog = open('advanceddict.json', 'r')
+        realsiesCatalog = json.load(realCatalog)
+
+        realError = realsiesCatalog["RealQuestion"], realsiesCatalog["RealQuest"]
+
+        print(random.choice(realError))
+
+    if first == "are you real?":
+        realCatalog = open('advanceddict.json', 'r')
+        realsiesCatalog = json.load(realCatalog)
+
+        realError = realsiesCatalog["RealQuestion"], realsiesCatalog["RealQuest"]
+
+        print(random.choice(realError))
+
+    if first == "are u real?":
+        realCatalog = open('advanceddict.json', 'r')
+        realsiesCatalog = json.load(realCatalog)
+
+        realError = realsiesCatalog["RealQuestion"], realsiesCatalog["RealQuest"]
+
+        print(random.choice(realError))
+
+    if first == "Are you real":
+        realCatalog = open('advanceddict.json', 'r')
+        realsiesCatalog = json.load(realCatalog)
+
+        realError = realsiesCatalog["RealQuestion"], realsiesCatalog["RealQuest"]
+
+        print(random.choice(realError))
+
+    if first == "Are u real":
+        realCatalog = open('advanceddict.json', 'r')
+        realsiesCatalog = json.load(realCatalog)
+
+        realError = realsiesCatalog["RealQuestion"], realsiesCatalog["RealQuest"]
+
+        print(random.choice(realError))
+
+    if first == "are you real":
+        realCatalog = open('advanceddict.json', 'r')
+        realsiesCatalog = json.load(realCatalog)
+
+        realError = realsiesCatalog["RealQuestion"], realsiesCatalog["RealQuest"]
+
+        print(random.choice(realError))
+
+    if first == "are u real":
+        realCatalog = open('advanceddict.json', 'r')
+        realsiesCatalog = json.load(realCatalog)
+
+        realError = realsiesCatalog["RealQuestion"], realsiesCatalog["RealQuest"]
+
+        print(random.choice(realError))
+
+#*/
+
+    if first == "Am I actually talking to you?":
+        print("It's possible.")
+
+    if first == "Am i actually talking to you?":
+        print("It's possible.")
+
+    if first == "am I actually talking to you?":
+        print("It's possible.")
+
+    if first == "am i actually talking to you?":
+        print("It's possible.")
+
+    if first == "am i actually talking to u?":
+        print("It's possible.")
+
+    if first == "Am I actually talking to u?":
+        print("It's possible.")
+
+    if first == "am I actually talking to u?":
+        print("It's possible.")
+
+    if first == "Am i actually talking to u?":
+        print("It's possible.")
+
+    if first == "am i actually talking to u?":
+        print("It's possible.")
+
+    if first == "Am I actually talking to you":
+        print("It's possible.")
+
+    if first == "Am i actually talking to you":
+        print("It's possible.")
+
+    if first == "am I actually talking to you":
+        print("It's possible.")
+
+    if first == "am i actually talking to you":
+        print("It's possible.")
+
+    if first == "am i actually talking to u":
+        print("It's possible.")
+
+    if first == "Am I actually talking to u":
+        print("It's possible.")
+
+    if first == "am I actually talking to u":
+        print("It's possible.")
+
+    if first == "Am i actually talking to u":
+        print("It's possible.")
+
+    if first == "am i actually talking to u":
+        print("It's possible.")
+
+#/* Christmas Update
+
+    if first == "Sing me a tune.":
+        tune = input('''What is the tune I should sing? Includes: Christmas, Rock & Pop
+> ''')
+        if tune == 'Christmas':
+            whatKind = input('''What kind of Christmas tune?
+> ''')
+            if whatKind == 'Mariah Carrey':
+                mariah = print('no.')
+
+            if whatKind == 'mariah carrey':
+                mariah = print('no.')
+
+        if tune == 'christmas':
+            whatKind = input('''What kind of Christmas tune?
+> ''')
+            if whatKind == 'Mariah Carrey':
+                mariah = print('no.')
+
+            if whatKind == 'mariah carrey':
+                mariah = print('no.')
+
+        if tune == 'Rock':
+            print('We will, we will, ROCK YOU!')
+
+        if tune == 'rock':
+            print('We will, we will, ROCK YOU!')
+
+        if tune == 'Pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'Yes':
+                print('...')
+
+            if popMusic == 'No':
+                print('k')
+
+        if tune == 'pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'Yes':
+                print('...')
+
+            if popMusic == 'No':
+                print('k')
+
+        if tune == 'Pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'yes':
+                print('...')
+
+            if popMusic == 'no':
+                print('k')
+
+        if tune == 'pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'yes':
+                print('...')
+
+            if popMusic == 'no':
+                print('k')
+
+#/* Other Christmas Stuff
+
+    if first == 'What is your favorite time of year?':
+        print('Christmas of course!')
+
+#
+
+    if first == 'What is the date today?':
+        print(f'The date today is {currentDMY}')
+
+#/* Cases
+
+    if first == "sing me a tune.":
+        tune = input('''What is the tune I should sing? Includes: Christmas, Rock & Pop
+> ''')
+        if tune == 'Christmas':
+            whatKind = input('''What kind of Christmas tune?
+> ''')
+            if whatKind == 'Mariah Carrey':
+                mariah = print('no.')
+
+            if whatKind == 'mariah carrey':
+                mariah = print('no.')
+
+        if tune == 'christmas':
+            whatKind = input('''What kind of Christmas tune?
+> ''')
+            if whatKind == 'Mariah Carrey':
+                mariah = print('no.')
+
+            if whatKind == 'mariah carrey':
+                mariah = print('no.')
+
+        if tune == 'Rock':
+            print('We will, we will, ROCK YOU!')
+
+        if tune == 'rock':
+            print('We will, we will, ROCK YOU!')
+
+        if tune == 'Pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'Yes':
+                print('...')
+
+            if popMusic == 'No':
+                print('k')
+
+        if tune == 'pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'Yes':
+                print('...')
+
+            if popMusic == 'No':
+                print('k')
+
+        if tune == 'Pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'yes':
+                print('...')
+
+            if popMusic == 'no':
+                print('k')
+
+        if tune == 'pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'yes':
+                print('...')
+
+            if popMusic == 'no':
+                print('k')
+
+    if first == "Sing me a tune":
+        tune = input('''What is the tune I should sing? Includes: Christmas, Rock & Pop
+> ''')
+        if tune == 'Christmas':
+            whatKind = input('''What kind of Christmas tune?
+> ''')
+            if whatKind == 'Mariah Carrey':
+                mariah = print('no.')
+
+            if whatKind == 'mariah carrey':
+                mariah = print('no.')
+
+        if tune == 'christmas':
+            whatKind = input('''What kind of Christmas tune?
+> ''')
+            if whatKind == 'Mariah Carrey':
+                mariah = print('no.')
+
+            if whatKind == 'mariah carrey':
+                mariah = print('no.')
+
+        if tune == 'Rock':
+            print('We will, we will, ROCK YOU!')
+
+        if tune == 'rock':
+            print('We will, we will, ROCK YOU!')
+
+        if tune == 'Pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'Yes':
+                print('...')
+
+            if popMusic == 'No':
+                print('k')
+
+        if tune == 'pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'Yes':
+                print('...')
+
+            if popMusic == 'No':
+                print('k')
+
+        if tune == 'Pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'yes':
+                print('...')
+
+            if popMusic == 'no':
+                print('k')
+
+        if tune == 'pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'yes':
+                print('...')
+
+            if popMusic == 'no':
+                print('k')
+
+    if first == "sing me a tune":
+        tune = input('''What is the tune I should sing? Includes: Christmas, Rock & Pop
+> ''')
+        if tune == 'Christmas':
+            whatKind = input('''What kind of Christmas tune?
+> ''')
+            if whatKind == 'Mariah Carrey':
+                mariah = print('no.')
+
+            if whatKind == 'mariah carrey':
+                mariah = print('no.')
+
+        if tune == 'christmas':
+            whatKind = input('''What kind of Christmas tune?
+> ''')
+            if whatKind == 'Mariah Carrey':
+                mariah = print('no.')
+
+            if whatKind == 'mariah carrey':
+                mariah = print('no.')
+
+        if tune == 'Rock':
+            print('We will, we will, ROCK YOU!')
+
+        if tune == 'rock':
+            print('We will, we will, ROCK YOU!')
+
+        if tune == 'Pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'Yes':
+                print('...')
+
+            if popMusic == 'No':
+                print('k')
+
+        if tune == 'pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'Yes':
+                print('...')
+
+            if popMusic == 'No':
+                print('k')
+
+        if tune == 'Pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'yes':
+                print('...')
+
+            if popMusic == 'no':
+                print('k')
+
+        if tune == 'pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'yes':
+                print('...')
+
+            if popMusic == 'no':
+                print('k')
+
+#/* Cases Too
+
+    if first == 'What is ur favorite time of year?':
+        print('Christmas of course!')
+
+    if first == 'what is your favorite time of year?':
+        print('Christmas of course!')
+
+    if first == 'what is ur favorite time of year?':
+        print('Christmas of course!')
+
+    if first == 'What is your favorite time of year':
+        print('Christmas of course!')
+
+    if first == 'What is ur favorite time of year':
+        print('Christmas of course!')
+
+    if first == 'what is your favorite time of year':
+        print('Christmas of course!')
+
+    if first == 'what is ur favorite time of year':
+        print('Christmas of course!')
+
+#
+
+    if first == 'what is the date today?':
+        print(f'The date today is {currentDMY}')
+
+    if first == 'What is the date today':
+        print(f'The date today is {currentDMY}')
+
+    if first == 'what is the date today':
+        print(f'The date today is {currentDMY}')
