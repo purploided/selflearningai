@@ -8,12 +8,15 @@
 import random
 import json
 import math
+import datetime
 
+lookFor = ["'", "?", ".", "!", "(", ")", ":"]
 
 secondsecond = "nrn"
 firstfirst = "nrn"
 namename = ""
 yourFavFood = "nrn"
+currentDMY = datetime.datetime.now()
 
 dictname = {"AIName": "Jarad"}
 
@@ -64,8 +67,10 @@ while oompaloompa == True:
 
         #/*
 
-
-    if first == "What's your name?":
+    first = first.replace("'", "")
+    first = first.replace("?", "")
+    first = first.replace("w", "W")
+    if "Whats your name" in first:
         why6 = open('namedict.json', 'r')
         why7 = json.load(why6)
 
@@ -94,266 +99,22 @@ while oompaloompa == True:
 
     skip1 = True
 
-    if first == "Whats your name?":
-        why6 = open('namedict.json', 'r')
-        why7 = json.load(why6)
-
-        print(why7['AIName'])
-        secondsecond = input("""And you are?
-> """)
-        print("Ah,", secondsecond, "nice to meet you!")
-
-        if skip == False:
-
-            dicta = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-            skip1 = True
-
-
-        if skip == True:
-
-
-            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-    skip1 = True
-
-
-    if first == "what's your name?":
-        why6 = open('namedict.json', 'r')
-        why7 = json.load(why6)
-
-        print(why7['AIName'])
-        secondsecond = input("""And you are?
-> """)
-        print("Ah,", secondsecond, "nice to meet you!")
-
-        if skip == False:
-
-            dicta = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-            skip1 = True
-
-
-        if skip == True:
-
-
-            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-    skip1 = True
-
-    if first == "whats your name?":
-        why6 = open('namedict.json', 'r')
-        why7 = json.load(why6)
-
-        print(why7['AIName'])
-        secondsecond = input("""And you are?
-> """)
-        print("Ah,", secondsecond, "nice to meet you!")
-
-        if skip == False:
-
-            dicta = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-            skip1 = True
-
-
-        if skip == True:
-
-
-            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-    skip1 = True
-
-
-    if first == "whats your name":
-        why6 = open('namedict.json', 'r')
-        why7 = json.load(why6)
-
-        print(why7['AIName'])
-        secondsecond = input("""And you are?
-> """)
-        print("Ah,", secondsecond, "nice to meet you!")
-
-        if skip == False:
-
-            dicta = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-            skip1 = True
-
-
-        if skip == True:
-
-
-            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-    skip1 = True
-
-
-    if first == "What's ur name?":
-        why6 = open('namedict.json', 'r')
-        why7 = json.load(why6)
-
-        print(why7['AIName'])
-        secondsecond = input("""And you are?
-> """)
-        print("Ah,", secondsecond, "nice to meet you!")
-
-        if skip == False:
-
-            dicta = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-            skip1 = True
-
-
-        if skip == True:
-
-
-            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-    skip1 = True
-
-
-    if first == "whats ur name?":
-        why6 = open('namedict.json', 'r')
-        why7 = json.load(why6)
-
-        print(why7['AIName'])
-        secondsecond = input("""And you are?
-> """)
-        print("Ah,", secondsecond, "nice to meet you!")
-
-        if skip == False:
-
-            dicta = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-            skip1 = True
-
-
-        if skip == True:
-
-
-            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-    skip1 = True
-
-
-    if first == "whats ur name":
-        why6 = open('namedict.json', 'r')
-        why7 = json.load(why6)
-
-        print(why7['AIName'])
-        secondsecond = input("""And you are?
-> """)
-        print("Ah,", secondsecond, "nice to meet you!")
-
-        if skip == False:
-
-            dicta = {"Name":secondsecond, "Pronouns":"Syntax Not Found"}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-            skip1 = True
-
-
-        if skip == True:
-
-
-            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-    skip1 = True
-
-
-    if first == "whats my name":
+    first = first.replace("'", "")
+    first = first.replace("?", "")
+    first = first.replace("w", "W")
+    if "Whats my name" in first: # checks dict.json for you name
 
         why = open('dict.json', 'r')
         why2 = json.load(why)
 
         print(why2['Name'])
 
-        
-    if first == "what's my name":
+    first = first.replace("your", "ur")
+    first = first.replace("are", "r")
+    first = first.replace("?", "")
+    first = first.replace("w", "W")
+    if "What r ur pronouns" in first:
 
-        why = open('dict.json', 'r')
-        why2 = json.load(why)
-
-        print(why2['Name'])
-
-    if first == "What's my name":
-
-        why = open('dict.json', 'r')
-        why2 = json.load(why)
-
-        print(why2['Name'])
-
-    if first == "What's my name?":
-
-        why = open('dict.json', 'r')
-        why2 = json.load(why)
-
-        print(why2['Name'])
-
-    if first == "whats my name?":
-
-        why = open('dict.json', 'r')
-        why2 = json.load(why)
-
-        print(why2['Name'])
-
-    if first == "Whats my name?":
-
-        why = open('dict.json', 'r')
-        why2 = json.load(why)
-
-        print(why2['Name'])
-
-    if first == "what's my name?": # checks dict.json for you name
-
-        why = open('dict.json', 'r')
-        why2 = json.load(why)
-
-        print(why2['Name'])
-
-    if first == ("what r ur pronouns"):
         print(random.choice(thirdanswers))
         firstfirst = input("""What are your pronouns?
 > """)
@@ -379,517 +140,39 @@ while oompaloompa == True:
 
     skip = True
 
-    if first == ("what are ur pronouns"):
-        print(random.choice(thirdanswers))
-        firstfirst = input("""What are your pronouns?
-> """)
-        print(firstfirst, "I'll remember that!")
-
-        if skip1 == False:
-
-            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-            skip = True
-
-
-        if skip1 == True:
-
-
-            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-    skip = True
-
-
-    if first == ("what are your pronouns"):
-        print(random.choice(thirdanswers))
-        firstfirst = input("""What are your pronouns?
-> """)
-        print(firstfirst, "I'll remember that!")
-
-        if skip1 == False:
-
-            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-            skip = True
-
-
-        if skip1 == True:
-
-
-            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-    skip = True
-
-
-    if first == ("what are your pronouns?"):
-        print(random.choice(thirdanswers))
-        firstfirst = input("""What are your pronouns?
-> """)
-        print(firstfirst, "I'll remember that!")
-
-        if skip1 == False:
-
-            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-            skip = True
-
-
-        if skip1 == True:
-
-
-            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-    skip = True
-
-
-    if first == ("What r ur pronouns?"):
-        print(random.choice(thirdanswers))
-        firstfirst = input("""What are your pronouns?
-> """)
-        print(firstfirst, "I'll remember that!")
-
-        if skip1 == False:
-
-            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-            skip = True
-
-
-        if skip1 == True:
-
-
-            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-    skip = True
-
-
-    if first == ("what r ur pronouns?"):
-        print(random.choice(thirdanswers))
-        firstfirst = input("""What are your pronouns?
-> """)
-        print(firstfirst, "I'll remember that!")
-
-        if skip1 == False:
-
-            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-            skip = True
-
-
-        if skip1 == True:
-
-
-            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-    skip = True
-
-
-    if first == ("What are your pronouns?"):
-        print(random.choice(thirdanswers))
-        firstfirst = input("""What are your pronouns?
-> """)
-        print(firstfirst, "I'll remember that!")
-
-        if skip1 == False:
-
-            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-            skip = True
-
-
-        if skip1 == True:
-
-
-            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-    skip = True
-
-
-    if first == ("what are ur pronouns"):
-        print(random.choice(thirdanswers))
-        firstfirst = input("""What are your pronouns?
-> """)
-        print(firstfirst, "I'll remember that!")
-
-        if skip1 == False:
-
-            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-            skip = True
-
-
-        if skip1 == True:
-
-
-            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-    skip = True
-
-
-    if first == ("what r your pronouns"):
-        print(random.choice(thirdanswers))
-        firstfirst = input("""What are your pronouns?
-> """)
-        print(firstfirst, "I'll remember that!")
-
-        if skip1 == False:
-
-            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-            skip = True
-
-
-        if skip1 == True:
-
-
-            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-    skip = True
-
-
-    if first == ("what are ur pronouns?"):
-        print(random.choice(thirdanswers))
-        firstfirst = input("""What are your pronouns?
-> """)
-        print(firstfirst, "I'll remember that!")
-
-        if skip1 == False:
-
-            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-            skip = True
-
-
-        if skip1 == True:
-
-
-            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-    skip = True
-
-
-    if first == ("what r your pronouns?"):
-        print(random.choice(thirdanswers))
-        firstfirst = input("""What are your pronouns?
-> """)
-        print(firstfirst, "I'll remember that!")
-
-        if skip1 == False:
-
-            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-            skip = True
-
-
-        if skip1 == True:
-
-
-            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
-
-            with open('dict.json', 'w') as dictionary:
-                json.dump(dicta, dictionary)
-
-    skip = True
-
-    if first == "what are my pronouns":
+    first = first.replace("are", "r")
+    first = first.replace("?", "")
+    first = first.replace("w", "W")
+    if "What r my pronouns" in first:
 
         why3 = open('dict.json', 'r')
         why4 = json.load(why3)
 
         print(why4['Pronouns'])
         
-    if first == "What are my pronouns":
-
-        why3 = open('dict.json', 'r')
-        why4 = json.load(why3)
-
-        print(why4['Pronouns'])
-
-    if first == "what r my pronouns":
-
-        why3 = open('dict.json', 'r')
-        why4 = json.load(why3)
-
-        print(why4['Pronouns'])
-
-    if first == "What r my pronouns":
-
-        why3 = open('dict.json', 'r')
-        why4 = json.load(why3)
-
-        print(why4['Pronouns'])
-
-    if first == "What are my pronouns?":
-
-        why3 = open('dict.json', 'r')
-        why4 = json.load(why3)
-
-        print(why4['Pronouns'])
-
-    if first == "what are my pronouns?":
-
-        why3 = open('dict.json', 'r')
-        why4 = json.load(why3)
-
-        print(why4['Pronouns'])
-
-    if first == "what r my pronouns?":
-
-        why3 = open('dict.json', 'r')
-        why4 = json.load(why3)
-
-        print(why4['Pronouns'])
-
-    if first == "What r my pronouns?":
-
-        why3 = open('dict.json', 'r')
-        why4 = json.load(why3)
-
-        print(why4['Pronouns'])
-
-    if first == "do you believe in me?":
-        print(random.choice(fiveanswers))
-
-    if first == "Do you believe in me?":
-        print(random.choice(fiveanswers))
-
-    if first == "do u believe in me?":
-        print(random.choice(fiveanswers))
-
-    if first == "do you believe in me":
-        print(random.choice(fiveanswers))
-
-    if first == "Do you believe in me":
-        print(random.choice(fiveanswers))
-
-    if first == "Do u believe in me?":
-        print(random.choice(fiveanswers))
-
-    if first == "Do u believe in me":
-        print(random.choice(fiveanswers))
-
-    if first == "do u believe in me":
+    first = first.replace("you", "u")
+    first = first.replace("?", "")
+    first = first.replace("do", "Do")
+    if "Do u believe in me" in first:
         print(random.choice(fiveanswers))
 
 ##
-
-    if first == "are u my friend":
-        print(random.choice(fourthanswers))
-
-    if first == "Are u my friend":
-        print(random.choice(fourthanswers))
-
-    if first == "are u my friend?":
-        print(random.choice(fourthanswers))
-
-    if first == "Are u my friend?":
-        print(random.choice(fourthanswers))
-
-    if first == "are you my friend?":
-        print(random.choice(fourthanswers))
-
-    if first == "Are you my friend?":
-        print(random.choice(fourthanswers))
-
-    if first == "Are you my friend":
-        print(random.choice(fourthanswers))
-
-    if first == "are you my friend":
-        print(random.choice(fourthanswers))
-
-    if first == "friend":
-        print(random.choice(fourthanswers))
-
-    if first == "Friend":
-        print(random.choice(fourthanswers))
-
-    if first == "friend?":
-        print(random.choice(fourthanswers))
-
-    if first == "Friend?":
-        print(random.choice(fourthanswers))
-
-    if first == "friends":
-        print(random.choice(fourthanswers))
-
-    if first == "Friends":
-        print(random.choice(fourthanswers))
-
-    if first == "friends?":
-        print(random.choice(fourthanswers))
-
-    if first == "Friends?":
-        print(random.choice(fourthanswers))
-
-##
-
-    if first == "who am i":
+    first = first.replace("w", "W")
+    first = first.replace("am i", "am I")
+    first = first.replace("?", "")
+    if "Who am I" in first:
 
         why = open('dict.json', 'r')
         why2 = json.load(why)
 
         print('You are', why2['Name'])
         print('Why would I forget?')
-
-    if first == "Who am i":
-
-        why = open('dict.json', 'r')
-        why2 = json.load(why)
-
-        print('You are', why2['Name'])
-        print('Why would I forget?')
-
-    if first == "who am I":
-
-        why = open('dict.json', 'r')
-        why2 = json.load(why)
-
-        print('You are', why2['Name'])
-        print('Why would I forget?')
-
-    if first == "who am i?":
-
-        why = open('dict.json', 'r')
-        why2 = json.load(why)
-
-        print('You are', why2['Name'])
-        print('Why would I forget?')
-
-    if first == "Who am I":
-
-        why = open('dict.json', 'r')
-        why2 = json.load(why)
-
-        print('You are', why2['Name'])
-        print('Why would I forget?')
-
-    if first == "who am I?":
-
-        why = open('dict.json', 'r')
-        why2 = json.load(why)
-
-        print('You are', why2['Name'])
-        print('Why would I forget?')
-
-    if first == "Who am I?":
-
-        why = open('dict.json', 'r')
-        why2 = json.load(why)
-
-        print('You are', why2['Name'])
-        print('Why would I forget?')
-
-    if first == "Who am i?":
-
-        why = open('dict.json', 'r')
-        why2 = json.load(why)
-
-        print('You are', why2['Name'])
-        print('Why would I forget?')
-
-        #/*
-
-    if first == "What is your favorite food?":
-        yourFavFood = input("""If you tell me, I'll tell you
-> """)
-        print(random.choice(sixthasnwers))
-
-    if first == "what is your favorite food?":
-        yourFavFood = input("""If you tell me, I'll tell you
-> """)
-        print(random.choice(sixthasnwers))
-
-    if first == "What is your favorite food":
-        yourFavFood = input("""If you tell me, I'll tell you
-> """)
-        print(random.choice(sixthasnwers))
-
-    if first == "what is your favorite food":
-        yourFavFood = input("""If you tell me, I'll tell you
-> """)
-        print(random.choice(sixthasnwers))
-
-    if first == "What is ur favorite food?":
-        yourFavFood = input("""If you tell me, I'll tell you
-> """)
-        print(random.choice(sixthasnwers))
-
-    if first == "what is ur favorite food?":
-        yourFavFood = input("""If you tell me, I'll tell you
-> """)
-        print(random.choice(sixthasnwers))
-
-    if first == "What is ur favorite food":
-        yourFavFood = input("""If you tell me, I'll tell you
-> """)
-        print(random.choice(sixthasnwers))
-
-    if first == "what is ur favorite food":
-        yourFavFood = input("""If you tell me, I'll tell you
-> """)
-        print(random.choice(sixthasnwers))
 
  #*/
 
-
-    if first == "joke":
+    first = first.replace("tell", "Tell")
+    first = first.replace(".", "")
+    if "Tell me a joke" in first:
         jokeCatalog = open('jokesdict.json', 'r')
         jokesCatalog = json.load(jokeCatalog)
 
@@ -897,496 +180,19 @@ while oompaloompa == True:
 
         print(random.choice(randomJoke))
 
-    if first == "Joke":
-        jokeCatalog = open('jokesdict.json', 'r')
-        jokesCatalog = json.load(jokeCatalog)
+#*/
+    
+    first = first.replace("favorite", "Favorite")
+    first = first.replace("?", "")
+    if "Favorite game" in first:
+        print(random.choice(gameFav))
 
-        randomJoke = jokesCatalog["Jokes1"], jokesCatalog["Jokes2"], jokesCatalog["Jokes3"], jokesCatalog["Jokes4"], jokesCatalog["Jokes5"]
-
-        print(random.choice(randomJoke))
-
-    if first == "joke?":
-        jokeCatalog = open('jokesdict.json', 'r')
-        jokesCatalog = json.load(jokeCatalog)
-
-        randomJoke = jokesCatalog["Jokes1"], jokesCatalog["Jokes2"], jokesCatalog["Jokes3"], jokesCatalog["Jokes4"], jokesCatalog["Jokes5"]
-
-        print(random.choice(randomJoke))
-
-    if first == "Joke?":
-        jokeCatalog = open('jokesdict.json', 'r')
-        jokesCatalog = json.load(jokeCatalog)
-
-        randomJoke = jokesCatalog["Jokes1"], jokesCatalog["Jokes2"], jokesCatalog["Jokes3"], jokesCatalog["Jokes4"], jokesCatalog["Jokes5"]
-
-        print(random.choice(randomJoke))
 
 #/*
 
-    if first == "fact": # fact command
-        factCatalog = open('factdict.json', 'r') # opens the fact dictionary
-        factsCatalog = json.load(factCatalog) # loads the fact dictionary
-
-        randomFact = factsCatalog["Fact1"], factsCatalog["Fact2"], factsCatalog["Fact3"], factsCatalog["Fact4"], factsCatalog["Fact5"]
-
-        # self explanitory
-
-        print(random.choice(randomFact)) # chooses a random fact from the "randomFact" list
-
-    if first == "tell me a fact":
-        factCatalog = open('factdict.json', 'r')
-        factsCatalog = json.load(factCatalog)
-
-        randomFact = factsCatalog["Fact1"], factsCatalog["Fact2"], factsCatalog["Fact3"], factsCatalog["Fact4"], factsCatalog["Fact5"]
-
-        print(random.choice(randomFact))
-
-    if first == "Fact":
-        factCatalog = open('factdict.json', 'r')
-        factsCatalog = json.load(factCatalog)
-
-        randomFact = factsCatalog["Fact1"], factsCatalog["Fact2"], factsCatalog["Fact3"], factsCatalog["Fact4"], factsCatalog["Fact5"]
-
-        print(random.choice(randomFact))
-
-    if first == "Tell me a fact":
-        factCatalog = open('factdict.json', 'r')
-        factsCatalog = json.load(factCatalog)
-
-        randomFact = factsCatalog["Fact1"], factsCatalog["Fact2"], factsCatalog["Fact3"], factsCatalog["Fact4"], factsCatalog["Fact5"]
-
-        print(random.choice(randomFact))
-
-    if first == "Tell me a fact.":
-        factCatalog = open('factdict.json', 'r')
-        factsCatalog = json.load(factCatalog)
-
-        randomFact = factsCatalog["Fact1"], factsCatalog["Fact2"], factsCatalog["Fact3"], factsCatalog["Fact4"], factsCatalog["Fact5"]
-
-        print(random.choice(randomFact))
-
-    if first == "tell me a fact.":
-        factCatalog = open('factdict.json', 'r')
-        factsCatalog = json.load(factCatalog)
-
-        randomFact = factsCatalog["Fact1"], factsCatalog["Fact2"], factsCatalog["Fact3"], factsCatalog["Fact4"], factsCatalog["Fact5"]
-
-        print(random.choice(randomFact))
-
-    if first == "what is your favorite genre":
-        print('My favorite genre of music is Electronic!')
-
-    if first == "what is your favorite genre?":
-        print('My favorite genre of music is Electronic!')
-
-    if first == "What is your favorite genre":
-        print('My favorite genre of music is Electronic!')
-
-    if first == "What is your favorite genre?":
-        print('My favorite genre of music is Electronic!')
-
-    if first == "what is your favorite genre of music?":
-        print('My favorite genre of music is Electronic!')
-
-    if first == "what is your favorite genre of music":
-        print('My favorite genre of music is Electronic!')
-
-    if first == "What is your favorite genre of music":
-        print('My favorite genre of music is Electronic!')
-
-    if first == "What is your favorite genre of music?":
-        print('My favorite genre of music is Electronic!')
-
-    if first == "What is ur favorite genre":
-        print('My favorite genre of music is Electronic!')
-
-    if first == "what is ur favorite genre":
-        print('My favorite genre of music is Electronic!')
-
-    if first == "What is ur favorite genre?":
-        print('My favorite genre of music is Electronic!')
-
-    if first == "what is ur favorite genre?":
-        print('My favorite genre of music is Electronic!')
-
-    if first == "What is ur favorite genre of music?":
-        print('My favorite genre of music is Electronic!')
-
-    if first == "what is ur favorite genre of music?":
-        print('My favorite genre of music is Electronic!')
-
-    if first == "What is ur favorite genre of music":
-        print('My favorite genre of music is Electronic!')
-
-    if first == "what is ur favorite genre of music": # im just bored ffs
-        print('My favorite genre of music is Electronic!')
-        #*/
-    if first == "how old r u":
-        print(random.choice(ageInSmallLetters))
-
-    if first == "how old are u":
-        print(random.choice(ageInSmallLetters))
-
-    if first == "how old r you":
-        print(random.choice(ageInSmallLetters))
-
-    if first == "how old are you":
-        print(random.choice(ageInSmallLetters))
-
-    if first == "How old are u":
-        print(random.choice(ageInSmallLetters))
-
-    if first == "How old r you":
-        print(random.choice(ageInSmallLetters))
-
-    if first == "How old are you":
-        print(random.choice(ageInSmallLetters))
-
-    if first == "How old r u":
-        print(random.choice(ageInSmallLetters))
-
-    if first == "how old r u?":
-        print(random.choice(ageInSmallLetters))
-
-    if first == "how old are u?":
-        print(random.choice(ageInSmallLetters))
-
-    if first == "how old r you?":
-        print(random.choice(ageInSmallLetters))
-
-    if first == "how old are you?":
-        print(random.choice(ageInSmallLetters))
-
-    if first == "How old are u?":
-        print(random.choice(ageInSmallLetters))
-
-    if first == "How old r you?":
-        print(random.choice(ageInSmallLetters))
-
-    if first == "How old are you?":
-        print(random.choice(ageInSmallLetters))
-
-    if first == "How old r u?":
-        print(random.choice(ageInSmallLetters))
-
-#/*
-    if first == "name":
-        namename = input('''What should my name be then?
-> ''')  
-        dictname = {"AIName": namename}
-
-    with open('namedict.json', 'w') as namedictionary:
-        json.dump(dictname, namedictionary)
-
-    if first == "Name":
-        namename = input('''What should my name be then?
-> ''')  
-        dictname = {"AIName": namename}
-
-    with open('namedict.json', 'w') as namedictionary:
-        json.dump(dictname, namedictionary)
-
-    if first == "name?":
-        namename = input('''What should my name be then?
-> ''')  
-        dictname = {"AIName": namename}
-
-    with open('namedict.json', 'w') as namedictionary:
-        json.dump(dictname, namedictionary)
-
-    if first == "Name?":
-        namename = input('''What should my name be then?
-> ''')  
-        dictname = {"AIName": namename}
-
-    with open('namedict.json', 'w') as namedictionary:
-        json.dump(dictname, namedictionary)
-
-#*/
-
-    if first == "Favorite Game?":
-        print(random.choice(gameFav))
-
-    if first == "favorite Game?":
-        print(random.choice(gameFav))
-
-    if first == "Favorite game?":
-        print(random.choice(gameFav))
-
-    if first == "favorite game?":
-        print(random.choice(gameFav))
-
-    if first == "Favorite Game":
-        print(random.choice(gameFav))
-
-    if first == "Favorite game":
-        print(random.choice(gameFav))
-
-    if first == "favorite Game":
-        print(random.choice(gameFav))
-
-    if first == "favorite game":
-        print(random.choice(gameFav))
-#/*
-
-    if first == "What came first, the chicken or the egg?":
-        chickCatalog = open('advanceddict.json', 'r')
-        chickenCatalog = json.load(chickCatalog)
-
-        print(chickenCatalog["ChickenQuest"])
-
-    if first == "What came first the chicken or the egg?":
-        chickCatalog = open('advanceddict.json', 'r')
-        chickenCatalog = json.load(chickCatalog)
-
-        print(chickenCatalog["ChickenQuest"])
-
-    if first == "what came first, the chicken or the egg?":
-        chickCatalog = open('advanceddict.json', 'r')
-        chickenCatalog = json.load(chickCatalog)
-
-        print(chickenCatalog["ChickenQuest"])
-
-    if first == "what came first the chicken or the egg?":
-        chickCatalog = open('advanceddict.json', 'r')
-        chickenCatalog = json.load(chickCatalog)
-
-        print(chickenCatalog["ChickenQuest"])
-
-    if first == "What came first, the chicken or the egg":
-        chickCatalog = open('advanceddict.json', 'r')
-        chickenCatalog = json.load(chickCatalog)
-
-        print(chickenCatalog["ChickenQuest"])
-
-    if first == "what came first, the chicken or the egg":
-        chickCatalog = open('advanceddict.json', 'r')
-        chickenCatalog = json.load(chickCatalog)
-
-        print(chickenCatalog["ChickenQuest"])
-
-    if first == "What came first the chicken or the egg":
-        chickCatalog = open('advanceddict.json', 'r')
-        chickenCatalog = json.load(chickCatalog)
-
-        print(chickenCatalog["ChickenQuest"])
-
-    if first == "what came first the chicken or the egg":
-        chickCatalog = open('advanceddict.json', 'r')
-        chickenCatalog = json.load(chickCatalog)
-
-        print(chickenCatalog["ChickenQuest"])
-
-#*/
-
-    if first == "What happened before the Big Bang?":
-        bangCatalog = open('advanceddict.json', 'r')
-        bangerCatalog = json.load(bangCatalog)
-
-        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
-
-        print(random.choice(BangError123))
-
-    if first == "what happened before the Big Bang?":
-        bangCatalog = open('advanceddict.json', 'r')
-        bangerCatalog = json.load(bangCatalog)
-
-        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
-
-        print(random.choice(BangError123))
-
-    if first == "What happened before the Big Bang":
-        bangCatalog = open('advanceddict.json', 'r')
-        bangerCatalog = json.load(bangCatalog)
-
-        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
-
-        print(random.choice(BangError123))
-
-    if first == "what happened before the Big Bang":
-        bangCatalog = open('advanceddict.json', 'r')
-        bangerCatalog = json.load(bangCatalog)
-
-        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
-
-        print(random.choice(BangError123))
-
-    if first == "What happened before the big Bang?":
-        bangCatalog = open('advanceddict.json', 'r')
-        bangerCatalog = json.load(bangCatalog)
-
-        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
-
-        print(random.choice(BangError123))
-
-    if first == "what happened before the big Bang?":
-        bangCatalog = open('advanceddict.json', 'r')
-        bangerCatalog = json.load(bangCatalog)
-
-        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
-
-        print(random.choice(BangError123))
-
-    if first == "What happened before the Big bang?":
-        bangCatalog = open('advanceddict.json', 'r')
-        bangerCatalog = json.load(bangCatalog)
-
-        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
-
-        print(random.choice(BangError123))
-
-    if first == "what happened before the Big bang?":
-        bangCatalog = open('advanceddict.json', 'r')
-        bangerCatalog = json.load(bangCatalog)
-
-        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
-
-        print(random.choice(BangError123))
-
-    if first == "What happened before the big bang?":
-        bangCatalog = open('advanceddict.json', 'r')
-        bangerCatalog = json.load(bangCatalog)
-
-        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
-
-        print(random.choice(BangError123))
-
-    if first == "what happened before the big bang?":
-        bangCatalog = open('advanceddict.json', 'r')
-        bangerCatalog = json.load(bangCatalog)
-
-        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
-
-        print(random.choice(BangError123))
-
-    if first == "What happened before the big bang":
-        bangCatalog = open('advanceddict.json', 'r')
-        bangerCatalog = json.load(bangCatalog)
-
-        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
-
-        print(random.choice(BangError123))
-
-    if first == "what happened before the big bang":
-        bangCatalog = open('advanceddict.json', 'r')
-        bangerCatalog = json.load(bangCatalog)
-
-        BangError123 = bangerCatalog['BigBangQuest'], bangerCatalog['BigBangError']
-
-        print(random.choice(BangError123))
-
-#*/
-
-    if first == "What does pain feel like?":
-        painCatalog = open('advanceddict.json', 'r')
-        painersCatalog = json.load(painCatalog)
-
-        print(painersCatalog['PainQuest'])
-
-    if first == "what does pain feel like?":
-        painCatalog = open('advanceddict.json', 'r')
-        painersCatalog = json.load(painCatalog)
-
-        print(painersCatalog['PainQuest'])
-
-    if first == "What does pain feel like":
-        painCatalog = open('advanceddict.json', 'r')
-        painersCatalog = json.load(painCatalog)
-
-        print(painersCatalog['PainQuest'])
-
-    if first == "what does pain feel like":
-        painCatalog = open('advanceddict.json', 'r')
-        painersCatalog = json.load(painCatalog)
-
-        print(painersCatalog['PainQuest'])
-
-#*/
-
-    if first == "Who is God?":
-        godCatalog = open('advanceddict.json', 'r')
-        godsCatalog = json.load(godCatalog)
-
-        print(godsCatalog['GodQuest'])
-
-    if first == "who is God?":
-        godCatalog = open('advanceddict.json', 'r')
-        godsCatalog = json.load(godCatalog)
-
-        print(godsCatalog['GodQuest'])
-
-    if first == "Who is god?":
-        godCatalog = open('advanceddict.json', 'r')
-        godsCatalog = json.load(godCatalog)
-
-        print(godsCatalog['GodQuest'])
-
-    if first == "who is god?":
-        godCatalog = open('advanceddict.json', 'r')
-        godsCatalog = json.load(godCatalog)
-
-        print(godsCatalog['GodQuest'])
-
-    if first == "Who is God":
-        godCatalog = open('advanceddict.json', 'r')
-        godsCatalog = json.load(godCatalog)
-
-        print(godsCatalog['GodQuest'])
-
-    if first == "Who is god":
-        godCatalog = open('advanceddict.json', 'r')
-        godsCatalog = json.load(godCatalog)
-
-        print(godsCatalog['GodQuest'])
-
-    if first == "who is God":
-        godCatalog = open('advanceddict.json', 'r')
-        godsCatalog = json.load(godCatalog)
-
-        print(godsCatalog['GodQuest'])
-
-    if first == "who is god":
-        godCatalog = open('advanceddict.json', 'r')
-        godsCatalog = json.load(godCatalog)
-
-        print(godsCatalog['GodQuest'])
-
-#/*
-
-    if first == "Pick a number":
-        firstask1 = input('''Input a number, please.
-> ''')
-
-        firstask2 = input('''Input another number, please.
-> ''')
-
-        result = int(firstask1)/int(firstask2)
-
-        print('I got this:', result)
-
-    if first == "pick a number":
-        firstask1 = input('''Input a number, please.
-> ''')
-
-        firstask2 = input('''Input another number, please.
-> ''')
-
-        result = int(firstask1)/int(firstask2)
-
-        print('I got this:', result)
-
-    if first == "Pick a number.":
-        firstask1 = input('''Input a number, please.
-> ''')
-
-        firstask2 = input('''Input another number, please.
-> ''')
-
-        result = int(firstask1)/int(firstask2)
-
-        print('I got this:', result)
-
-    if first == "pick a number.":
+    first = first.replace("pick", "Pick")
+    first = first.replace(".", "")
+    if "Pick a number" in first:
         firstask1 = input('''Input a number, please.
 > ''')
 
@@ -1398,8 +204,12 @@ while oompaloompa == True:
         print('I got this:', result)
 
 #/*
+    ###################################################################################3
 
-    if first == "Dictionary":
+    first = first.replace("open", "Open")
+    first = first.replace(".", "")
+    if "Open dictionary" in first:
+
         dictquestiona = input('''What word are you looking for?
 > ''')
         Catalog = open('worddict.json', 'r')
@@ -1407,15 +217,9 @@ while oompaloompa == True:
 
         print(sCatalog[dictquestiona])
 
-    if first == "dictionary":
-        dictquestiona = input('''What word are you looking for?
-> ''')
-        Catalog = open('worddict.json', 'r')
-        sCatalog = json.load(Catalog)
-
-        print(sCatalog[dictquestiona])
-
-    if first == "Save my email.":
+    first = first.replace("save", "Save")
+    first = first.replace(".", "")
+    if "Save my email" in first:
         firstInput = input('''What should we call this email?
 > ''')
         secondInput = input('''What is the email we are adding?
@@ -1428,89 +232,86 @@ while oompaloompa == True:
         with open('emaildict.json', 'w') as dictionarial:
             json.dump(theDump, dictionarial)
 
-    if first == "save my email.":
-        firstInput = input('''What should we call this email?
-> ''')
-        secondInput = input('''What is the email we are adding?
-> ''')
-        thirdInput = input('''What is the password to this email?
-> ''')
-
-        theDump = {'Name#':firstInput, 'Email#':secondInput, 'Pass#':thirdInput}
-
-        with open('emaildict.json', 'w') as dictionarial:
-            json.dump(theDump, dictionarial)
-
-    if first == "Save my email":
-        firstInput = input('''What should we call this email?
-> ''')
-        secondInput = input('''What is the email we are adding?
-> ''')
-        thirdInput = input('''What is the password to this email?
-> ''')
-
-        theDump = {'Name#':firstInput, 'Email#':secondInput, 'Pass#':thirdInput}
-
-        with open('emaildict.json', 'w') as dictionarial:
-            json.dump(theDump, dictionarial)
-
-    if first == "save my email":
-        firstInput = input('''What should we call this email?
-> ''')
-        secondInput = input('''What is the email we are adding?
-> ''')
-        thirdInput = input('''What is the password to this email?
-> ''')
-
-        theDump = {'Name#':firstInput, 'Email#':secondInput, 'Pass#':thirdInput}
-
-        with open('emaildict.json', 'w') as dictionarial:
-            json.dump(theDump, dictionarial)
-
-    if first == "What's my email?":
+    first = first.replace("'", "")
+    first = first.replace("what", "What")
+    first = first.replace(".", "")
+    if "Whats my email" in first:
         why = open('emaildict.json', 'r')
         why2 = json.load(why)
 
         print(why2['Name#'], "is", why2['Email#'], "password is", why2['Pass#'])
 
-    if first == "Whats my email?":
-        why = open('emaildict.json', 'r')
-        why2 = json.load(why)
 
-        print(why2['Name#'], "is", why2['Email#'], "password is", why2['Pass#'])
+#/* Christmas Update
 
-    if first == "What's my email":
-        why = open('emaildict.json', 'r')
-        why2 = json.load(why)
+    first = first.replace("sing", "Sing")
+    first = first.replace(".", "")
+    if "Sing me a tune" in first:
+        tune = input('''What is the tune I should sing? Includes: Christmas, Rock & Pop
+> ''')
+        if tune == 'Christmas':
+            whatKind = input('''What kind of Christmas tune?
+> ''')
+            if whatKind == 'Mariah Carrey':
+                mariah = print('no.')
 
-        print(why2['Name#'], "is", why2['Email#'], "password is", why2['Pass#'])
+            if whatKind == 'mariah carrey':
+                mariah = print('no.')
 
-    if first == "Whats my email":
-        why = open('emaildict.json', 'r')
-        why2 = json.load(why)
+        if tune == 'christmas':
+            whatKind = input('''What kind of Christmas tune?
+> ''')
+            if whatKind == 'Mariah Carrey':
+                mariah = print('no.')
 
-        print(why2['Name#'], "is", why2['Email#'], "password is", why2['Pass#'])
+            if whatKind == 'mariah carrey':
+                mariah = print('no.')
 
-    if first == "what's my email?":
-        why = open('emaildict.json', 'r')
-        why2 = json.load(why)
+        if tune == 'Rock':
+            print('We will, we will, ROCK YOU!')
 
-        print(why2['Name#'], "is", why2['Email#'], "password is", why2['Pass#'])
+        if tune == 'rock':
+            print('We will, we will, ROCK YOU!')
 
-    if first == "whats my email?":
-        why = open('emaildict.json', 'r')
-        why2 = json.load(why)
+        if tune == 'Pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'Yes':
+                print('...')
 
-        print(why2['Name#'], "is", why2['Email#'], "password is", why2['Pass#'])
+            if popMusic == 'No':
+                print('k')
 
-    if first == "what's my email":
-        why = open('emaildict.json', 'r')
-        why2 = json.load(why)
+        if tune == 'pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'Yes':
+                print('...')
 
-        print(why2['Name#'], "is", why2['Email#'], "password is", why2['Pass#'])
+            if popMusic == 'No':
+                print('k')
 
-    if first == "whats my email":
-        why = open('emaildict.json', 'r')
-        why2 = json.load(why)
+        if tune == 'Pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'yes':
+                print('...')
 
-        print(why2['Name#'], "is", why2['Email#'], "password is", why2['Pass#'])
+            if popMusic == 'no':
+                print('k')
+
+        if tune == 'pop':
+            popMusic = input('''Are you sure?
+> ''')
+            if popMusic == 'yes':
+                print('...')
+
+            if popMusic == 'no':
+                print('k')
+
+#/* Other Christmas Stuff
+
+    first = first.replace("what is the", "What is the")
+    first = first.replace("?", "")
+    if 'What is the date today' in first:
+        print(f'The date today is {currentDMY}')
