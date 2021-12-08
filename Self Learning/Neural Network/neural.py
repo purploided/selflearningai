@@ -69,7 +69,7 @@ while oompaloompa == True:
 
     first = first.replace("'", "")
     first = first.replace("?", "")
-    first = first.replace("w", "W")
+    first = first.replace("what", "What")
     if "Whats your name" in first:
         why6 = open('namedict.json', 'r')
         why7 = json.load(why6)
@@ -101,7 +101,7 @@ while oompaloompa == True:
 
     first = first.replace("'", "")
     first = first.replace("?", "")
-    first = first.replace("w", "W")
+    first = first.replace("what", "What")
     if "Whats my name" in first: # checks dict.json for you name
 
         why = open('dict.json', 'r')
@@ -110,10 +110,37 @@ while oompaloompa == True:
         print(why2['Name'])
 
     first = first.replace("your", "ur")
-    first = first.replace("are", "r")
     first = first.replace("?", "")
-    first = first.replace("w", "W")
+    first = first.replace("what", "What")
     if "What r ur pronouns" in first:
+
+        print(random.choice(thirdanswers))
+        firstfirst = input("""What are your pronouns?
+> """)
+        print(firstfirst, "I'll remember that!")
+
+        if skip1 == False:
+
+            dicta = {"Name":"Syntax Not Found", "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+            skip = True
+
+
+        if skip1 == True:
+
+
+            dicta = {"Name":secondsecond, "Pronouns":firstfirst}
+
+            with open('dict.json', 'w') as dictionary:
+                json.dump(dicta, dictionary)
+
+    first = first.replace("your", "ur")
+    first = first.replace("?", "")
+    first = first.replace("what", "What")
+    if "What are ur pronouns" in first:
 
         print(random.choice(thirdanswers))
         firstfirst = input("""What are your pronouns?
@@ -140,10 +167,18 @@ while oompaloompa == True:
 
     skip = True
 
-    first = first.replace("are", "r")
     first = first.replace("?", "")
-    first = first.replace("w", "W")
+    first = first.replace("what", "What")
     if "What r my pronouns" in first:
+
+        why3 = open('dict.json', 'r')
+        why4 = json.load(why3)
+
+        print(why4['Pronouns'])
+
+    first = first.replace("?", "")
+    first = first.replace("what", "What")
+    if "What are my pronouns" in first:
 
         why3 = open('dict.json', 'r')
         why4 = json.load(why3)
@@ -157,7 +192,7 @@ while oompaloompa == True:
         print(random.choice(fiveanswers))
 
 ##
-    first = first.replace("w", "W")
+    first = first.replace("who", "Who")
     first = first.replace("am i", "am I")
     first = first.replace("?", "")
     if "Who am I" in first:
@@ -167,6 +202,8 @@ while oompaloompa == True:
 
         print('You are', why2['Name'])
         print('Why would I forget?')
+
+
 
  #*/
 
@@ -188,6 +225,20 @@ while oompaloompa == True:
         print(random.choice(gameFav))
 
 
+    first = first.replace("depressed", "Depression")
+    first = first.replace("depression", "Depression")
+    first = first.replace("Depression", "Depression")
+    first = first.replace("jarad", "Jarad")
+    first = first.replace(".", "")
+    if 'Jarad i am Depression' in first:
+        depressionHotlineInput = input('''Where are you from? - US, UK, AU (Australia), CA (Canada)
+> ''')
+
+        hotlineCatalog = open('hotlines.json', 'r')
+        hotlinesCatalog = json.load(hotlineCatalog)
+
+        print(hotlinesCatalog[depressionHotlineInput])
+            
 #/*
 
     first = first.replace("pick", "Pick")
@@ -310,6 +361,15 @@ while oompaloompa == True:
                 print('k')
 
 #/* Other Christmas Stuff
+
+    first = first.replace("recipe", "Recipe")
+    first = first.replace(".", "")
+    if 'Recipe for pudding' in first:
+        puddingLoad = open('recipedict.json', 'r')
+        puddingClean = json.load(puddingLoad)
+
+        print(puddingClean["RecipePuddingIng"], puddingClean["RecipePuddingDir"])
+    #
 
     first = first.replace("what is the", "What is the")
     first = first.replace("?", "")
